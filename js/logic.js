@@ -6,3 +6,8 @@ Hints for the first problem:
 - returns the calculated sum of all of the values of all of the options passed in
 NOTE: use a loop to make this happen.
 */
+
+var sum = function(options) {
+    //set up some of the variables
+
+};

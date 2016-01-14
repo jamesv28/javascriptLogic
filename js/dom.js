@@ -6,3 +6,7 @@
  - passes all of its options to the `sum` function defined in `logic.js`
  - takes the value returned by the `sum` function and displays it on the page
  */
+
+var sumAll = document.getElementById('sum-all');
+sumAll.addEventListener('click', function() {
+});
