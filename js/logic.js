@@ -7,7 +7,10 @@ Hints for the first problem:
 NOTE: use a loop to make this happen.
 */
 
-var sum = function(options) {
-    //set up some of the variables
-
-};
+var sum = function (options) {
+    var total = 0;
+    for (var i = 0; i < options.length; i++) {
+        total += options[i];
+    }
+    console.log(total);
+}

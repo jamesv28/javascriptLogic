@@ -7,6 +7,17 @@
  - takes the value returned by the `sum` function and displays it on the page
  */
 
-var sumAll = document.getElementById('sum-all');
-sumAll.addEventListener('click', function() {
-});
+var allPrices = document.getElementsByTagName("option");
+var nums = [];
+for (var i = 0; i < allPrices.length; i++) {
+ nums.push(parseInt(allPrices[i].value));
+}
+
+var answer = document.getElementById("answer");
+console.log(answer);
+
+var sumAll = document.getElementById("sum-all");
+sumAll.onclick = function (){
+ sum(nums);
+ answer.innerHTML = sum(nums);
+};
