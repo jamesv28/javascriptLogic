@@ -46,5 +46,5 @@ function power(base, exponent) {
 }
 
 console.log(power(2,5));
-
+console.log(power(3,3));
 console.log(power(4,5));
